@@ -1,5 +1,7 @@
 package com.example.flickster.models;
 
+import androidx.versionedparcelable.ParcelField;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -14,7 +16,10 @@ public class Movie {
     String overview;
     String backdropPath;
 
-    public Movie(JSONObject jsonObject) throws JSONException {
+    
+    public Movie() {
+    }
+      public Movie(JSONObject jsonObject) throws JSONException {
         posterPath = jsonObject.getString( "poster_path");
         title = jsonObject.getString("title");
         overview = jsonObject.getString("overview");
