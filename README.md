@@ -19,7 +19,7 @@
 
 ### App Walkthough GIF
 
-<img src="https://github.com/amiralda/Flickster/blob/master/walkthrough.gif" width=250><br>
+<img src="https://github.com/amiralda/Flickster/blob/master/walkthrough2.gif" width=250><br>
 
 ### Open-source libraries used
 
